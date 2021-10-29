@@ -15,3 +15,5 @@ Phase 1:
 - create a _template folder and _template.jsx to use when creating components
 - create a GalleryList component and a GalleryItem component
 - import and mount the components and test them out in the browser
+- import axios and useState and create a function that gets the images from the server, stores them in App.js and passes them to the GalleryList via props
+- import useEffect and use it to get the images on page load
