@@ -5,8 +5,9 @@ function GalleryItem( props ){
 
     return(
         <div>
-            <h1>GalleryItem</h1>
-            <p> props: { JSON.stringify( props ) } </p>
+            { props.image.path }
+            <p> { props.image.description }</p>
+            <p> { props.image.likes  }</p>
         </div>
     )
 }
