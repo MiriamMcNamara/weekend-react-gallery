@@ -7,3 +7,11 @@
 Your project description goes here. What problem did you solve? How did you solve it?
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+
+Phase 1:
+===
+
+- put six images into the images folder, and update the gallery.router.js to create an object for each image within a gallery array
+- create a _template folder and _template.jsx to use when creating components
+- create a GalleryList component and a GalleryItem component
+- import and mount the components and test them out in the browser
