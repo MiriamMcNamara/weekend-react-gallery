@@ -49,4 +49,5 @@ STRETCH GOALS
 Phase 3: Add the database
  - create a database in Postico that includes id, path, description, and likes, and move the data from the server into the database.
 - create a database.sql in the project so that it can be recreated.
-- in the server, edit the GET and PUT requests so that they pull from and push to the database.
+- create a pool module in the server, export it and require it in the router.js
+- in the routes file, edit the GET and PUT requests so that they pull from and push to the database.

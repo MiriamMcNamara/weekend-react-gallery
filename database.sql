@@ -5,13 +5,6 @@ CREATE TABLE "gallery_items" (
     "likes" integer
 );
 
--- CREATE TABLE "treats" (
--- 	"id" SERIAL PRIMARY KEY,
--- 	"name" varchar(255),
--- 	"description" text,
--- 	"pic" varchar(255)
--- );
-
 INSERT INTO gallery_items ( "id", "path", "description", "likes")
 VALUES 
 (1, 'images/iclimbtrees.jpg', 'I love to climb trees! This shot was taken at Lake Harriet Rose Garden.', 0),
