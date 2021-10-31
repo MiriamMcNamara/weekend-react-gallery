@@ -8,9 +8,6 @@ The assignment was to create a gallery of photos using React with the ability to
 
 BASE MODE took me about 3 1/2 hours, 4 hours including adding comments. I then added some stretch goals while also troubleshooting with others on our projects, which took me another 5+ hours. 
 
-## Screen Shot
-![Basemode Screenshot](basemode-screenshot.jpg)
-
 ## Screen shot
 ![Stretchmode Screenshot](stretchgoalsscreenshot.png)
 
@@ -84,8 +81,8 @@ The user can alternate views between images and the alt text, like images and se
 
 ## Acknowledgements
 
-This was a tough one! Thanks to everyone in my cohort, and to Dev, for helping out along the way.
+This was a tough one! Thanks to everyone in my cohort, and to Dev, for all of the awesome help.
 
 ## Support
 
-Holler at me on Slack if you need any help installing this project.
+Holler at me on Slack if you need any help installing this project!
