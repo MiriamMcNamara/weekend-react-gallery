@@ -19,6 +19,7 @@ function AddPic( props ){
         console.log( 'in captureDescription', event.target.value );
         setCurrentPic( {...currentPic, description: event.target.value} );
     }
+
     const addPic = ()=>{
         console.log( 'in addPic');
         console.log( currentPic );
@@ -28,7 +29,6 @@ function AddPic( props ){
             data: currentPic
           }).then( (response)=>{
             props.getImages();
-            //empty out input fields
           }).catch((err)=>{
              alert('POST Failed');
              console.log(err);
@@ -37,11 +37,11 @@ function AddPic( props ){
     }
 
     return(
-        <div>
-            <h1>Add a Picture!</h1>
+        <div className="addPic">
+            <h1>Add a Pic!</h1>
             <input type="text" placeholder="picture URL" onChange={ (event) => captureUrl( event )}  />
             <input type="text" placeholder="picture description" onChange={ (event) => captureDescription( event )} />
-            <button onClick={addPic}>Add this pic!</button>
+            <button className="addPicButton" onClick={addPic}>Add this pic!</button>
             {/* <p> props: { JSON.stringify( props ) } </p> */}
             <p>{}</p>
         </div>
