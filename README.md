@@ -47,7 +47,32 @@ STRETCH GOALS
 ***remember to branch and merge for each stretch goal!***
 
 Phase 3: Add the database
+- create a new branch to work in, and a branch to push to
  - create a database in Postico that includes id, path, description, and likes, and move the data from the server into the database.
+- npm install pg
 - create a database.sql in the project so that it can be recreated.
 - create a pool module in the server, make sure it's using the right database,export it and require it in the router.js
 - in the routes file, edit the GET and PUT requests so that they pull from and push to the database.
+
+Phase 4: Adding an addImage component
+- create a new branch to work in, and a branch to push to
+- create a new component using _template and import and mount on the DOM
+
+- Add a form (new **component**) that allows a user to POST a new gallery item
+  - Client side form (use absolute URL for images)
+  - Server side route for posting an image
+  - some info on React forms here: https://reactjs.org/docs/forms.html
+
+
+  const addPicture = () => {
+    axios({
+      method: 'POST',
+      url: '/gallery',
+      data: picSelect
+    }).then( (response)=>{
+      props.get()
+    }).catch((err)=>{
+       alert('PUT Failed');
+       console.log(err);
+    })
+  }

@@ -32,4 +32,17 @@ router.get('/', (req, res) => {
     })
 }); // END GET Route
 
+// POST Route
+router.post('/', (req, res) => {
+    console.log( 'POST route hit');
+    let queryString = 'INSERT INTO gallery_items ( path, description, likes ) VALUES ( $1, $2, $3 )';
+    let values = [ req.body.path, req.body.description, req.body.likes ];
+    pool.query( queryString, values ).then( (results)=>{
+        res.sendStatus( 201 )
+    }).catch( (err)=>{
+        console.log( err );
+        res.sendStatus( 500 );
+    })
+}); // END POST Route
+
 module.exports = router;

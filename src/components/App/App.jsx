@@ -2,6 +2,7 @@ import React, {useState, useEffect } from 'react';
 import './App.css';
 import GalleryList from '../GalleryList/GalleryList';
 import axios from 'axios';
+import AddPic from '../AddPic/AddPic';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <header className="App-header">
           <h1 className="App-title">Gallery of Me</h1>
         </header>
+        <AddPic getImages={ getImages }/>
         <GalleryList images={ images } getImages={ getImages }/> 
       </div>
     ); //mount the component and send it props in the return; here we are passing
