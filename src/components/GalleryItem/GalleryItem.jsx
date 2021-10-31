@@ -32,8 +32,8 @@ function GalleryItem( props ){
             <p onClick={changeShow}> { props.image.description }</p>
             }
             <p></p>
-            <button onClick={updateLikes}>Like This Image</button>
-            <p> Likes: { props.image.likes  }</p>
+            <button className="likeButton" onClick={updateLikes}>Like This Image</button>
+            <h2> Likes: { props.image.likes  }</h2>
             
         </div>
     ) // add onClick functions to the image that includes conditional rendering; add

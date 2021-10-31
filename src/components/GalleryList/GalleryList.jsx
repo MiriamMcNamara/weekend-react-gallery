@@ -5,7 +5,7 @@ function GalleryList( props ){
     // const[ name, setName ]=useState( null );
 
     return(
-        <div>
+        <div className="galleryList">
             <h1>&#x2728; Some pics from my life these days &#x2728;</h1>
             {props.images.map( image=>( <GalleryItem image={image} getImages={ props.getImages } />))}
         </div>
