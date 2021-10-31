@@ -9,9 +9,6 @@ The assignment was to create a gallery of photos using React with the ability to
 BASE MODE took me about 3 1/2 hours, 4 hours including adding comments. I then added some stretch goals while also troubleshooting with others on our projects, which took me another 5+ hours. 
 
 ## Screenshots
-
-This is what it looked like for base mode and when I was finished: 
-
 ![Basemode Screenshot](basemode-screenshot.jpg)
 ![Stretchmode Screenshot](stretchgoalsscreenshot.png)
 
