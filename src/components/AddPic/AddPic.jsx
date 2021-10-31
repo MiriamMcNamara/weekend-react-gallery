@@ -39,8 +39,8 @@ function AddPic( props ){
     return(
         <div className="addPic">
             <h1>Add a Pic!</h1>
-            <input type="text" placeholder="picture URL" onChange={ (event) => captureUrl( event )}  />
-            <input type="text" placeholder="picture description" onChange={ (event) => captureDescription( event )} />
+            <input className="input" type="text" placeholder="picture URL" onChange={ (event) => captureUrl( event )}  />
+            <input className="input" type="text" placeholder="picture description" onChange={ (event) => captureDescription( event )} />
             <button className="addPicButton" onClick={addPic}>Add this pic!</button>
             {/* <p> props: { JSON.stringify( props ) } </p> */}
             <p>{}</p>

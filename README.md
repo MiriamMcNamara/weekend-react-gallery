@@ -1,12 +1,27 @@
 # Project Name
 
-WEEKEND CHALLENGE: REACT GALLERY
+GALLERY OF ME
 
 ## Description
 
-BASE MODE took me about 3 1/2 hours. 4 hours including adding comments. I then added some stretch goals while also troubleshooting with others on our projects, which took me another 5+ hours. This is what it looked like for base mode and when I was finished: 
+The assignment was to create a gallery of photos using React with the ability to toggle between the image and the alt text and the ability to like photos. The stretch goals I completed were adding a database and the ability to add photos to the gallery.
+
+BASE MODE took me about 3 1/2 hours, 4 hours including adding comments. I then added some stretch goals while also troubleshooting with others on our projects, which took me another 5+ hours. 
+
+## Screenshots
+
+This is what it looked like for base mode and when I was finished: 
 
 ![Basemode Screenshot](/images/basemode-screenshot.jpg)
+![Stretchmode Screenshot](/images/stretchgoalsscreenshot.png)
+
+## Prerequisites
+
+Node.js
+install express and PG
+database and table created according to the database.sql file
+
+## Installation
 
 Phase 1: Get everything mounted and communicating properly
 ===
@@ -57,4 +72,21 @@ Phase 4: Adding an addImage component
 - Add server side route for posting the image to the database and pass getImages to the new component using props so that the DOM refreshes once the image is posted.
 - I had intended to clear the input fields in this function, but ran out of time before I could add it.
 
-Phase 4 1/2: Added some basic styling.
+(Phase 4 1/2: Added some basic styling.)
+
+## Usage
+
+The user can alternate views between images and the alt text, like images and see how many times the image has been liked, and add an image and alt text to the gallery that will then be displayed on the page.
+
+## Built With
+
+- Express, PG, React
+- Javascript and SQL
+
+## Acknowledgements
+
+This was a tough one! Thanks to everyone in my cohort, and to Dev, for helping out along the way.
+
+## Support
+
+Holler at me on Slack if you need any help installing this project.
