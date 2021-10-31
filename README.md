@@ -12,8 +12,8 @@ BASE MODE took me about 3 1/2 hours, 4 hours including adding comments. I then a
 
 This is what it looked like for base mode and when I was finished: 
 
-![Basemode Screenshot](/images/basemode-screenshot.jpg)
-![Stretchmode Screenshot](/images/stretchgoalsscreenshot.png)
+![Basemode Screenshot](./images/basemode-screenshot.jpg)
+![Stretchmode Screenshot](./images/stretchgoalsscreenshot.png)
 
 ## Prerequisites
 
