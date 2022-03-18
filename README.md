@@ -82,7 +82,3 @@ The user can alternate views between images and the alt text, like images and se
 ## Acknowledgements
 
 This was a tough one! Thanks to everyone in my cohort, and to Dev, for all of the awesome help.
-
-## Support
-
-Holler at me on Slack if you need any help installing this project!
